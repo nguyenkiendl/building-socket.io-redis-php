@@ -7,7 +7,7 @@ use LRedis;
 class mySocket
 {
 	
-	function __construct(argument)
+	function __construct()
 	{
 		$this->redis = LRedis::connection();
 	}
