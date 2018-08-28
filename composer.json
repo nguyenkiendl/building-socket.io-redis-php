@@ -1,0 +1,20 @@
+{
+    "name": "nguyenkiendl92/building-socket.io-redis-php",
+    "description": "building socket.io and redis php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nguyenkiendl92",
+            "email": "kienmap192@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenkiendl\\": "src/"
+        }
+    }
+}
